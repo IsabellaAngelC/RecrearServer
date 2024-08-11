@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+   
+    <title>Fetch API Methods</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #data-container {
+            margin-top: 20px;
+        }
+        .item {
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 300px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="eltodo">
+      <form id="post-form" class="form-container">
+        <input type="text" id="user-name" placeholder="Nombre del Usuario" required>
+        <input type="text" id="title" placeholder="Título" required>
+        <textarea id="body" placeholder="Texto" required></textarea>
+        <button id="publicar" type="submit">Crear Post</button>
+      </form>
+  
+      <div class="fetch-container">
+        <h1>Fetch GET, POST DELETE</h1>
+        <button id="fetch-button">Post</button>
+        <div id="data-container"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+  
+</html>

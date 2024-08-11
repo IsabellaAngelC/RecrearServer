@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fef2f2; /* Rosa pastel claro */
+  }
+  
+  /* Contenedor principal */
+  .eltodo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre columnas */
+  }
+  
+  /* Contenedor del formulario y del fetch */
+  .form-container, .fetch-container {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+  
+  /* Estilos del formulario */
+  form {
+    background-color: #fce4ec; /* Rosa pastel claro */
+    border: 1px solid #f8bbd0; /* Rosa pastel más oscuro */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos de los inputs y textarea */
+  input[type="text"], textarea {
+    border: 1px solid #f8bbd0; /* Rosa pastel más oscuro */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 22px); /* Ajuste de ancho para padding y border */
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical; /* Permite redimensionar verticalmente */
+  }
+  
+  /* Estilos del botón de enviar */
+  button {
+    background-color: #f48fb1; /* Rosa pastel medio */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #f06292; /* Rosa pastel más oscuro */
+  }
+  
+  /* Estilos del contenedor de posts */
+  .data-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos de los posts */
+  .item, .postContainer {
+    background-color: #fce4ec; /* Rosa pastel claro */
+    border: 1px solid #f8bbd0; /* Rosa pastel más oscuro */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos de los botones de eliminar */
+  button.delete-button {
+    background-color: #e57373; /* Rosa coral */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button.delete-button:hover {
+    background-color: #ef5350; /* Rosa más oscuro */
+  }
+  
